@@ -1,0 +1,12 @@
+.guess-face{
+	width: 90%;
+	margin: 20px 5px;
+}
+
+.wrong-guess, .right-guess{
+	width: 20%;
+	margin: 5px;
+	position: absolute;
+	top:0px;
+	left:0px;
+}

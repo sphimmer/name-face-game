@@ -1,0 +1,31 @@
+{
+  "name": "name-face-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests/test.js",
+  "directories": {
+    "tests": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphimmer/name-face-game.git"
+  },
+  "author": "Stuart Himmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sphimmer/name-face-game/issues"
+  },
+  "homepage": "https://github.com/sphimmer/name-face-game#readme",
+  "dependencies": {
+    "aws-sdk": "^2.302.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "mysql": "^2.16.0"
+  }
+}
